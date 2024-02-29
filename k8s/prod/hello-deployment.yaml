@@ -18,7 +18,7 @@ spec:
         type: core
       containers:
         - name: hello
-          image: ziemowits/hello:R.2024-1.0
+          image: kopytko
           ports:
             - containerPort: 8080
           readinessProbe:
