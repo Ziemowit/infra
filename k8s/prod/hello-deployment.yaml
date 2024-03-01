@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: ziemowits/hello:R.2024-3.1
+          image: ziemowits/hello:R.2024-5.0
           ports:
             - containerPort: 8080
           readinessProbe:
