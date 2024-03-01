@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: ''
+          image: R.2024-3.3
           ports:
             - containerPort: 8080
           readinessProbe:
