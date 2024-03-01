@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: bye
+spec:
+  type: ClusterIP
+  selector:
+    app: bye
+  ports:
+    - protocol: TCP
+      port: 8080

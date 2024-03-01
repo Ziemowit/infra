@@ -14,8 +14,6 @@ spec:
       labels:
         app: hello
     spec:
-      nodeSelector:
-        type: core
       containers:
         - name: hello
           image: ziemowits/hello:R.2024-1.0
