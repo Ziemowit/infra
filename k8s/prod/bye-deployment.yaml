@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: bye
-          image: ziemowits/bye:R.2024-1.0
+          image: ziemowits/bye:R.2024-2.0
           ports:
             - containerPort: 8080
           readinessProbe:
